@@ -2,7 +2,7 @@ let begin = require('@architect/functions')
 let faunadb = require('faunadb')
 
 let client = new faunadb.Client({
-  secret: process.env.FAUNA_SERVER_SECRET
+  secret: process.env.FAUNADB_SERVER_SECRET
 })
 
 
@@ -20,6 +20,9 @@ function route (req, res) {
     })
   }).catch((error) => {
     console.log("backend error", error)
+    res({
+      js: "'error'"
+    })
   })
 }
 
