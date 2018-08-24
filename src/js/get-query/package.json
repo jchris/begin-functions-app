@@ -2,6 +2,7 @@
   "name": "safety-v4v-get-query",
   "dependencies": {
     "@architect/functions": "latest",
-    "@begin-functions/data": "latest"
+    "@begin-functions/data": "latest",
+    "faunadb": "^2.5.0"
   }
 }
