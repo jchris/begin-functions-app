@@ -7,3 +7,6 @@ get /foo
 
 @js
 /query
+
+@json
+get /fauna
