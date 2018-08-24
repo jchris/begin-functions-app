@@ -1,0 +1,7 @@
+{
+  "name": "safety-v4v-get-foo",
+  "dependencies": {
+    "@architect/functions": "latest",
+    "@begin-functions/data": "latest"
+  }
+}
