@@ -1,0 +1,7 @@
+{
+  "name": "safety-v4v-get-fauna",
+  "dependencies": {
+    "@architect/functions": "latest",
+    "@begin-functions/data": "latest"
+  }
+}
